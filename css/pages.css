@@ -2,6 +2,7 @@
 /* CSS Document */
 .card {
 	margin:25px 0px;
+	height: 100%
 }
 .card h1{
 	font-size:24px;

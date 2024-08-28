@@ -35,13 +35,23 @@ nav a,nav a.navbar-brand:hover{  /*增加默认的下划线效果，颜色与背
 /*footer*/
 footer{
 	height:50px; padding-top:12px;
+	background-color: #f8f9fa;
+	width: 100%;
+	text-align: center;
+	margin-top:auto;
+	position: relative;
+	bottom: -50px;
 }
+img #banner{
+	margin-bottom: 10px;
+}
+
 /*media query*/		
 @media (max-width:768px){ /*Bootstrap在max-width:768px时导航条显示为按钮*/
-.logo-responsive{ /*小屏幕显示时logo稍微缩小*/
-	width:50px; height:auto;
-}
-nav a,footer{ /*小屏幕显示时，导航条文字和页脚文字缩小*/
-	font-size:smaller;
-}
+	.logo-responsive{ /*小屏幕显示时logo稍微缩小*/
+		width:50px; height:auto;
+	}
+	nav a,footer{ /*小屏幕显示时，导航条文字和页脚文字缩小*/
+		font-size:smaller;
+	}
 }
