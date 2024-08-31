@@ -1,7 +1,16 @@
 /* CSS Document */
 /*主导航*/
+@font-face {
+    font-family: 'Source Han Serif';
+    src: local('Source Han Serif CN'), 
+         url('../font/SourceHanSerifSC-VF.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 body,html{
 	scroll-behavior: smooth;
+	background: #f5f5fa;
+	font-family: 'Source Han Serif';
 }
 nav a:hover{ /*增加悬停加下划线效果*/
 	border-bottom:2px #f8f9fa solid;
@@ -49,6 +58,23 @@ img #banner{
 	margin-top: 50px;
 	padding: 20px;
 	box-shadow: 0px 0px 10px #888888;
+	background: #fefefe;
+	border-radius: 0.5rem;
+	line-height: 2rem;
+}
+.contain h1, h2{
+	line-height: 5rem;
+	font-weight: 800;
+}
+.row .col-lg-3, .col-lg-2 {
+	/* height: auto; 根据内容自动调整高度 */
+	/* min-height: 0; 允许高度缩小到0 */
+	max-height: calc(100vh - 20rem);
+	border-radius: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	/* width: 150%; */
+	/* overflow: auto; 如果内容超出最大高度，显示滚动条 */
 }
 .catalog{
 	display:block;
@@ -67,4 +93,8 @@ img #banner{
 	.catalog{
 		display:none;
 	}
+}
+a {
+	text-decoration: none;
+    color: var(--accent-color);
 }
