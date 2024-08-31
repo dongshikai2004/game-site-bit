@@ -65,10 +65,10 @@
     }
 }
 
-#catalog_float h1, #catalog_normal h1{
-	font-size: xx-large;
+.catalog h1{
+	font-size: 32px;
 }
 
-#catalog_float li, #catalog_normal li{
-	font-size: large;
+.catalog li{
+	font-size: 14px;
 }

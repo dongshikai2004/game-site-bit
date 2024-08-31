@@ -61,6 +61,7 @@ img #banner{
 	background: #fefefe;
 	border-radius: 0.5rem;
 	line-height: 2rem;
+	height: auto;
 }
 .contain h1, h2{
 	line-height: 5rem;
@@ -78,12 +79,14 @@ img #banner{
 }
 .catalog{
 	display:block;
+	max-height: calc(100vh - 8rem);
+	overflow-y: hidden;
 }
 .container-fluid{
 	margin-bottom: 20px;
 }
 /*media query*/		
-@media (max-width:768px){ /*Bootstrap在max-width:768px时导航条显示为按钮*/
+@media (max-width:992px){ /*Bootstrap在max-width:768px时导航条显示为按钮*/
 	.logo-responsive{ /*小屏幕显示时logo稍微缩小*/
 		width:50px; height:auto;
 	}
