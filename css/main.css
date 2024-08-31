@@ -39,7 +39,7 @@ footer{
 	width: 100%;
 	text-align: center;
 	margin-top:0;
-	position: relative;
+	position: absolute;
 	bottom: 0px;
 }
 img #banner{
@@ -53,7 +53,9 @@ img #banner{
 .catalog{
 	display:block;
 }
-
+.container-fluid{
+	margin-bottom: 20px;
+}
 /*media query*/		
 @media (max-width:768px){ /*Bootstrap在max-width:768px时导航条显示为按钮*/
 	.logo-responsive{ /*小屏幕显示时logo稍微缩小*/
