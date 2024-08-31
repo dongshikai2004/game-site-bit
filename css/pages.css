@@ -54,7 +54,7 @@
     box-sizing: border-box;
     margin: 0px 0px 0px 75%;
     padding-bottom: 20px;
-    position: fixed;
+    position: relative;
     z-index: 1;
     float: right;
 }

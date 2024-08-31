@@ -45,6 +45,14 @@ footer{
 img #banner{
 	margin-bottom: 10px;
 }
+.contain{
+	margin-top: 50px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px #888888;
+}
+.catalog{
+	
+}
 
 /*media query*/		
 @media (max-width:768px){ /*Bootstrap在max-width:768px时导航条显示为按钮*/
